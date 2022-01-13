@@ -1,0 +1,17 @@
+{
+  "sets": [
+    {
+      "id": "4eosf"
+    },
+    {
+      "id": "4sr"
+    },
+    {
+      "id": "4wt"
+    }
+  ],
+  "sands": ["atk", "em", "er", "def", "hp"],
+  "goblet": ["atk", "ele", "em"],
+  "circlet": ["cd", "atk", "em"],
+  "sub": ["atk", "flatAtk", "em", "cd", "er"]
+}
