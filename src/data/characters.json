@@ -1,0 +1,36 @@
+[
+  {
+    "id": "RaidenShogun",
+    "hp": 12907,
+    "atk": 337,
+    "def": 789,
+    "atkPer": 0,
+    "cRate": 0,
+    "cDmg": 0,
+    "phyDmg": 0,
+    "eleDmg": 0,
+    "er": 0.32,
+    "defPer": 0,
+    "hpPer": 0,
+    "em": 0,
+    "healing": 0,
+    "level": 90
+  },
+  {
+    "id": "Ganyu",
+    "hp": 9797,
+    "atk": 335,
+    "def": 630,
+    "atkPer": 0,
+    "cRate": 0,
+    "cDmg": 0.384,
+    "phyDmg": 0,
+    "eleDmg": 0,
+    "er": 0,
+    "defPer": 0,
+    "hpPer": 0,
+    "em": 0,
+    "healing": 0,
+    "level": 90
+  }
+]
