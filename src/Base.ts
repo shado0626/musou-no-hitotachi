@@ -13,10 +13,11 @@ export interface IBase {
   hpPer: number;
   em: number;
   healing: number;
+  level: number;
 }
 
 export abstract class Base {
-  private data: IBase[] = [
+  private static data: IBase[] = [
     {
       id: 'RaidenShogun',
       hp: 12907,
@@ -32,10 +33,11 @@ export abstract class Base {
       hpPer: 0,
       em: 0,
       healing: 0,
+      level: 90,
     },
   ];
 
-  getBase(charId: string): IBase {
+  static getBase(charId: string): IBase {
     const char: IBase | undefined = this.data.find(
       (item: IBase) => item.id === charId
     );
