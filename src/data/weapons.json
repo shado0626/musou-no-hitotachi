@@ -1,0 +1,40 @@
+[
+  {
+    "id": "R5Grasscutter",
+    "baseAtk": 608,
+    "atkPer": 1.2,
+    "hpPer": 0,
+    "defPer": 0,
+    "cr": 0,
+    "cd": 0,
+    "er": 1.051,
+    "em": 0,
+    "dmgBonus": 0,
+    "phyBonus": 0,
+    "eleBonus": 0,
+    "normalBonus": 0,
+    "chargedBonus": 0,
+    "skillBonus": 0,
+    "burstBonus": 0,
+    "atk": 0
+  },
+  {
+    "id": "R5Amos",
+    "baseAtk": 608,
+    "atkPer": 0.496,
+    "hpPer": 0,
+    "defPer": 0,
+    "cr": 0,
+    "cd": 0,
+    "er": 0,
+    "em": 0,
+    "dmgBonus": 0,
+    "phyBonus": 0,
+    "eleBonus": 0,
+    "normalBonus": 1.04,
+    "chargedBonus": 1.04,
+    "skillBonus": 0,
+    "burstBonus": 0,
+    "atk": 0
+  }
+]
