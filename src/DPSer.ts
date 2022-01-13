@@ -28,7 +28,7 @@ export class DPSer {
       (item: IDPSer) => item.id === charId
     );
     if (char) this.character = char;
-    throw new Error('character doesnt exist');
+    else throw new Error('character doesnt exist');
   }
 
   get char(): IDPSer {

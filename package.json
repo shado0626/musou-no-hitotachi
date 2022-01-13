@@ -2,12 +2,13 @@
   "name": "musou-no-hitotachi",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "build/app.js",
   "scripts": {
     "build": "tsc",
-    "start:build": "tsc -w",
-    "start:run": "nodemon build/index.js",
-    "start": "concurrently npm:start:*"
+    "dev:build": "tsc -w",
+    "dev:run": "nodemon build/index.js",
+    "dev": "concurrently npm:start:*",
+    "start": "node ."
   },
   "keywords": [],
   "author": "Raiden Ei",
