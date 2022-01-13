@@ -1,4 +1,4 @@
-export interface IBase {
+export interface ICharacter {
   id: string;
   hp: number;
   atk: number;
@@ -16,8 +16,8 @@ export interface IBase {
   level: number;
 }
 
-export abstract class Base {
-  private static data: IBase[] = [
+export abstract class Character {
+  private static data: ICharacter[] = [
     {
       id: 'RaidenShogun',
       hp: 12907,
@@ -36,19 +36,19 @@ export abstract class Base {
       level: 90,
     },
   ];
-  private static character: IBase = this.data.find(
-    (i: IBase) => i.id === 'RaidenShogun'
-  ) as IBase;
+  private static character: ICharacter = this.data.find(
+    (i: ICharacter) => i.id === 'RaidenShogun'
+  ) as ICharacter;
 
   static setChar(charId: string): void {
-    const char: IBase | undefined = this.data.find(
-      (item: IBase) => item.id === charId
+    const char: ICharacter | undefined = this.data.find(
+      (item: ICharacter) => item.id === charId
     );
     if (char) this.character = char;
     throw new Error('id doesnt exist');
   }
 
-  static getChar(): IBase {
+  static getChar(): ICharacter {
     return this.character;
   }
 }
