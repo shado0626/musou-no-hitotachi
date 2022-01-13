@@ -36,12 +36,19 @@ export abstract class Base {
       level: 90,
     },
   ];
+  private static character: IBase = this.data.find(
+    (i: IBase) => i.id === 'RaidenShogun'
+  ) as IBase;
 
-  static getBase(charId: string): IBase {
+  static setChar(charId: string): void {
     const char: IBase | undefined = this.data.find(
       (item: IBase) => item.id === charId
     );
-    if (char) return char;
+    if (char) this.character = char;
     throw new Error('id doesnt exist');
+  }
+
+  static getChar(): IBase {
+    return this.character;
   }
 }
