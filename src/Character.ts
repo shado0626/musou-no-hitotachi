@@ -45,7 +45,7 @@ export abstract class Character {
       (item: ICharacter) => item.id === charId
     );
     if (char) this.character = char;
-    throw new Error('id doesnt exist');
+    throw new Error('character doesnt exist');
   }
 
   static getChar(): ICharacter {
