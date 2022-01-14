@@ -26,7 +26,7 @@ export class Weapon {
     (i: IWeapon) => i.id === 'R5Grasscutter'
   ) as IWeapon;
 
-  setWeapon(weaponId: string): void {
+  constructor(weaponId: string) {
     const weapon: IWeapon | undefined = this.data.find(
       (i: IWeapon) => i.id === weaponId
     );

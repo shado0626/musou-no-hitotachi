@@ -23,7 +23,7 @@ export class DPSer {
     (i: IDPSer) => i.id === 'RaidenShogun'
   ) as IDPSer;
 
-  setChar(charId: string): void {
+  constructor(charId: string) {
     const char: IDPSer | undefined = this.data.find(
       (item: IDPSer) => item.id === charId
     );
